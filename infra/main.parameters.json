@@ -45,11 +45,12 @@
       "value": "${AZURE_DOCUMENTINTELLIGENCE_SKU=S0}"
     },
     "documentIntelligenceResourceGroupLocation": {
-      "value": "${AZURE_DOCUMENTINTELLIGENCE_LOCATION}"
+      "value": "${AZURE_DOCUMENTINTELLIGENCE_LOCATION=canadacentral}"
     },
     "searchIndexName": {
       "value": "${AZURE_SEARCH_INDEX=gptkbindex}"
     },
+    
     "searchServiceName": {
       "value": "${AZURE_SEARCH_SERVICE}"
     },
